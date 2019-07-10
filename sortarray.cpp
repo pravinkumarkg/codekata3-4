@@ -21,7 +21,7 @@ int main() {
 	}
 	for(i=0;i<n;i++)
 	{
-	cout<<number[i];
+	cout<<number[i]<<" ";
 	}
 	return 0;
 }
