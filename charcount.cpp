@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-	char str[20];
+	char str[50];
 	int count=0;
-	cin.getline(str, 10);
+	cin.getline(str, 50);
 	for(int i=0;str[i]!='\0';i++)
 	{
 		count++;
