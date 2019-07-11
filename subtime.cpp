@@ -19,7 +19,7 @@ int main()
     }
     resHour = hour1 - hour2;
     resMin = min1 - min2;
-    cout << (resHour < 0 ? -resHour : resHour) << " " << (resMin? -resMin : resMin);
+    cout << (resHour < 0 ? -resHour : resHour) << " " << (resMin < 0 ? -resMin : resMin);
     
     return 0;
     
