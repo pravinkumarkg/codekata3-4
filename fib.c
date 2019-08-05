@@ -9,7 +9,7 @@
     {
         fib3 = fib1 + fib2;
         count++;
-        printf("%d\n", fib3);
+        printf("%d\t", fib3);
         fib1 = fib2;
         fib2 = fib3;
    }
